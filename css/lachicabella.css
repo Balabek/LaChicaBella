@@ -175,7 +175,6 @@ a.header_call_btn {
     -moz-border-radius: 100px;
     -webkit-border-radius: 100px;
     border-radius: 100px;
-    -khtml-border-radius: 100px;
     border: none;
     color: #ffffff;
     font-size: 1.1rem;
@@ -190,7 +189,6 @@ a.header_call_btn::before {
     -moz-border-radius: 100px;
     -webkit-border-radius: 100px;
     border-radius: 100px;
-    -khtml-border-radius: 100px;
     position: absolute;
     content: "";
     top: 0;
@@ -235,16 +233,324 @@ a.header_call_btn:hover > i {
 
 
 
+/* === */
+/* =========== TODAY'S BELLAS =========== */
+/* === */
+
+.todays_bellas_area {
+    display: block;
+    position: relative;
+    min-height: 930px;
+    height: auto;
+    padding-top: 75px;
+    background: url('../img/todays_bellas_bgd.png') center center no-repeat;
+    background-size: cover;
+}
+
+h2.section_ttl {
+    font-family: 'Cormorant SC', serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2.section_ttl.dark_ttl {
+    color: #0B0C14;
+}
+
+hr.title_separator {
+    display: block;
+    clear: both;
+    height: 1px;
+    width: 10%;
+    text-align: center;
+    border: none;
+    background-color: #E32A97;
+}
+
+.todays_bellas_selection_holder {
+    padding-top: 70px;
+}
+
+h4.chica_name {
+    font-family: 'Bickham Script Pro', serif;
+    font-weight: 600;
+    font-size: 5.4rem;
+    color: #ffffff;
+    text-align: center;
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    bottom: 16px;
+    cursor: pointer;
+
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.chica_thumb_holder {
+    padding: 0;
+}
+
+.chica_thumb_holder:hover h4.chica_name {
+    color: #E32A97;
+}
+
+a.chica_thumb {
+    display: block;
+    height: 490px;
+    position: relative;
+    z-index: 1;
+    padding: 0;
+    text-align: center;
+    overflow: hidden;
+    -webkit-filter: grayscale(1) brightness(80%);
+    filter: grayscale(1) brightness(80%);
+
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+a.chica_thumb:hover {
+    cursor: pointer;
+    -webkit-filter: grayscale(1) brightness(45%);
+    filter: grayscale(1) brightness(45%);
+}
+
+.show_more_btn_holder {
+    clear: both;
+    padding-top: 75px;
+}
+
+button.show_more_bellas_btn {
+    font-size: 0.88rem;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    height: 55px;
+    width: 230px;
+    position: relative;
+    z-index: 1;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+
+    border: none;
+    background-image: linear-gradient(to right, #E6C968 0%, #E95595 51%, #E32A97 100%);
+}
+
+button.show_more_bellas_btn::before {
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    color: #ffffff !important;
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to left, #fbda75 0%, #fc56a7 51%, #fa2da8 100%);
+    z-index: -1;
+    transition: opacity 0.4s linear;
+    opacity: 0;
+}
+
+button.show_more_bellas_btn:hover {
+    color: #ffffff;
+}
+
+button.show_more_bellas_btn:hover::before {
+    opacity: 1;
+}
 
 
 
 
 
+/* === */
+/* =========== LA CHICA BELLAS =========== */
+/* === */
+
+.la_chica_bellas_area {
+    display: block;
+    position: relative;
+    min-height: 930px;
+    height: auto;
+    padding-top: 75px;
+    background: url('../img/la_chica_bellas_section_bgd.png') center center no-repeat;
+    background-size: cover;
+}
+
+.la_chica_bellas_selection_holder {
+    padding-top: 70px;
+}
 
 
 
 
+/* === */
+/* =========== DECORUM =========== */
+/* === */
+
+.decorum_area {
+    position: relative;
+    display: block;
+    top: -4px;
+    padding-top: 75px;
+    background: #f8f8f8;
+    min-height: 1100px;
+    height: auto;
+}
+
+.service_boxes_holder {
+    padding-top: 75px;
+    margin-bottom: 75px;
+}
+
+/* This class is apllied to the services that are currently not launched. Thus, these can be removed (i.e. activated) later  */
+.inactive {
+    opacity: 0.2 !important;
+    pointer-events: none !important;
+}
+
+.service_box {
+    display: block;
+    position: relative;
+    background: #ffffff;
+    border-radius: 20px;
+    min-height: 455px;
+    padding: 0;
+
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0,0,0,0.18);
+    -moz-box-shadow: 0 4px 8px 0 rgba(0,0,0,0.18);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.18);
+}
+
+.service_box_header {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 165px;
+    padding: 0;
+    margin: 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+.tint {
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    background-blend-mode: multiply;
+    opacity: 0.66;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    -webkit-filter: brightness(90%);
+    filter: brightness(90%);
+}
+
+.tint.sensual_massage_tint {
+    background-color: #FF48EE;
+}
+
+.tint.full_service_tint {
+    background-color: #E60000;
+}
+
+.tint.tantric_massage_tint {
+    background-color: #005800;
+}
+
+.service_box_header.sensual_massage {
+    background: url('../img/sb_sensual.jpeg') center center no-repeat;
+    background-size: cover;
+}
+
+.service_box_header.full_service {
+    background: url('../img/sb_full_service.jpeg') center center no-repeat;
+    background-size: cover;
+}
+
+.service_box_header.tantric_massage {
+    background: url('../img/sb_tantric.jpeg') center center no-repeat;
+    background-size: cover;
+}
+
+.service_box_content_holder {
+    padding: 18px;
+    text-align: center;
+}
+
+h3.sb_ttl {
+    font-family: 'Cormorant SC', serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #0B0C14;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+article.sb_content {
+    padding-top: 24px;
+}
+
+article.sb_content p {
+    font-size: 0.99rem;
+    color: #0B0C14;
+    text-align: center;
+    overflow: hidden;
+    max-height: 300px;
+}
 
 
+hr.section_separator {
+    display: block;
+    clear: both;
+    height: 1px;
+    width: 100%;
+    text-align: center;
+    border: none;
+    background-color: #999999;
+    margin-top: 105px;
+    margin-bottom: 24px;
+}
+
+.operation_hours_holder {
+    display: block;
+    position: relative;
+    width: 55%;
+    margin: 0 auto;
+    padding-top: 55px;
+    text-align: center;
+}
+
+.hours_ttl_holder span {
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #0B0C14;
+}
+
+.hours_ttl_holder span i {
+    margin-right: 5px;
+    color: #666666;
+}
 
 
