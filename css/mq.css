@@ -1,0 +1,449 @@
+/*
+
+▒█▀▄▀█ █▀▀ █▀▀▄ ░▀░ █▀▀█ 　 ▒█▀▀█ █░░█ █▀▀ █▀▀█ ░▀░ █▀▀ █▀▀
+▒█▒█▒█ █▀▀ █░░█ ▀█▀ █▄▄█ 　 ▒█░▒█ █░░█ █▀▀ █▄▄▀ ▀█▀ █▀▀ ▀▀█
+▒█░░▒█ ▀▀▀ ▀▀▀░ ▀▀▀ ▀░░▀ 　 ░▀▀█▄ ░▀▀▀ ▀▀▀ ▀░▀▀ ▀▀▀ ▀▀▀ ▀▀▀
+
+*/
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* >>>>>>>> I M P O R T A N T ! <<<<<<<<< */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+
+/* >>>>> SM/XS <<<<< */
+
+@media screen and (max-width: 767px){
+    #lcbNavbarCollapse {
+        position: absolute;
+        width: 100%;
+        margin-top: 24px;
+        background: #f8f8f8;
+        border-top: 1px solid #E32A97;
+        padding-bottom: 6px;
+        padding-top: 6px;
+        z-index: 22;
+    }
+
+
+}
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== Navbar ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* >>>>> SM/XS <<<<< */
+
+@media screen and (max-width: 1111px){
+    ul.lcb_nav li {margin-right: 18px;}
+}
+
+@media screen and (max-width: 1039px){
+    ul.lcb_nav li a {font-size: 0.8rem;}
+}
+
+@media screen and (max-width: 899px){
+    span.main_logo {background-size: 75%; position: relative; top: -8px;}
+    ul.lcb_nav li {margin-right: 8px;}
+}
+
+@media screen and (max-width: 845px){
+    span.main_logo {right: -24px;}
+    ul.lcb_nav li {margin-right: 2px;}
+}
+
+@media screen and (max-width: 767px){
+    span.main_logo {right: 0; background-size: 50%; height: 117px;}
+    ul.lcb_nav {margin-top: 10px;}
+    ul.lcb_nav.rightside_nav {margin-top: -10px;}
+    ul.lcb_nav li a {font-size: 0.9rem; width: 180px; margin: 0 auto;}
+    .navbar-collapse {text-align: center;}
+}
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== Header ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* >>>>> SM/XS <<<<< */
+
+@media screen and (max-width: 1344px){
+    .lcb_header_banner h1 {font-size: 3.2rem;}
+}
+
+@media screen and (max-width: 1228px){
+    .lcb_header_banner {width: 65%;}
+}
+
+@media screen and (max-width: 1039px){
+    .lcb_header_banner h1 {font-size: 2.9rem;}
+}
+
+@media screen and (max-width: 942px){
+    .lcb_header_banner {width: 77%;}
+}
+
+@media screen and (max-width: 795px){
+    .lcb_header_banner {width: 82%;}
+}
+
+@media screen and (max-width: 746px){
+    .lcb_header_banner h1 {font-size: 2.4rem;}
+}
+
+@media screen and (max-width: 616px){
+    .lcb_header_banner h1 {font-size: 2.1rem;}
+}
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== Today's Bellas / La Chica Bella's ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* >>>>> SM/XS <<<<< */
+
+@media screen and (max-width: 950px){
+    h4.chica_name {font-size: 3.8rem;}
+}
+
+@media screen and (max-width: 767px){
+    .show_more_btn_holder {padding-top: 45px; margin-bottom: 45px;}
+    h4.chica_name {font-size: 5rem;}
+
+}
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== Decorum ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* >>>>> SM/XS <<<<< */
+
+@media screen and (max-width: 991px){
+    .service_box_wrapper {width: 100%; margin-bottom: 24px;}
+    .operation_hours_holder {margin-bottom: 55px;}
+}
+
+@media screen and (max-width: 767px){
+    hr.section_separator {width: 92%;}
+    hr.section_separator {margin-top: 20px;}
+}
+
+@media screen and (max-width: 575px){
+    .operation_hours_holder {width: 75%;}
+}
+
+@media screen and (max-width: 385px){
+    .operation_hours_holder {width: 95%;}
+}
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== Contact ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* >>>>> SM/XS <<<<< */
+
+@media screen and (max-width: 1199px){
+    .contact_info_text_holder {width: 85%;}
+}
+
+@media screen and (max-width: 991px){
+    .lcb_form_holder {width: 85%;}
+}
+
+@media screen and (max-width: 499px){
+    .contact_info_text_holder {width: 95%;}
+}
+
+@media screen and (max-width: 380px){
+    .lcb_form_holder {width: 90%;}
+}
+
+@media screen and (max-width: 338px){
+    .submit_lcb_form_btn_holder {margin-bottom: 42px;}
+}
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== Footer ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* >>>>> SM/XS <<<<< */
+
+@media screen and (max-width: 1030px){
+    ul.footer_socials li {margin-right: 32px;}
+    ul.footer_socials {padding-right: 22px;}
+}
+
+@media screen and (max-width: 999px){
+    ul.footer_socials li {margin-right: 22px;}
+    ul.footer_socials {padding-right: 32px;}
+}
+
+@media screen and (max-width: 919px){
+    .footer_links_holder {padding-left: 3%;}
+    ul.footer_socials li {margin-right: 28px;}
+    ul.footer_socials {padding-right: 0; position: relative; right: 32px;}
+}
+
+@media screen and (max-width: 864px){
+    ul.footer_socials li {margin-right: 23px;}
+}
+
+@media screen and (max-width: 803px){
+    a.footer_call_btn {width: 199px;}
+    ul.footer_socials li {margin-right: 20px;}
+}
+
+@media screen and (max-width: 767px){
+    footer.lcb_footer {padding-top: 36px;}
+    .footer_logo_holder {text-align: center; margin-bottom: 50px;}
+    img.footer_logo {display: inline-block; text-align: center;}
+}
+
+@media screen and (max-width: 575px){
+    .footer_links_holder {width: 45%; padding-left: 15%;}
+    .footer_cta_holder {width: 100%; text-align: center;}
+    a.footer_call_btn {float: none;}
+    .footer_call_btn_holder {padding-top: 20px;}
+    .social_links_holder {top: 40px; display: inline-block;}
+    ul.footer_socials {right: 0; text-align: center; padding-left: 32px;}
+}
+
+@media screen and (max-width: 369px){
+    .footer_links_holder {width: 45%; padding-left: 11%;}
+}
+
+@media screen and (max-width: 326px){
+    .footer_links_holder {padding-left: 9%;}
+}
+
+
+
+
+
+/* - - -  - - - - - - - - - - - - - - - - - */
+/* - - -  - - - - - - - - - - - - - - - - - */
+/* ========== GIRL'S PROFILE PAGE ==========*/
+/* - - -  - - - - - - - - - - - - - - - - - */
+/* - - -  - - - - - - - - - - - - - - - - - */
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== Inner Header ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* >>>>> SM/XS <<<<< */
+
+@media screen and (max-width: 899px){
+    .lcb_inner_header {height: 140px;}
+}
+
+@media screen and (max-width: 767px){
+    .lcb_inner_header {height: 100px;}
+}
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== Age Gate ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* >>>>> L/XL <<<<< */
+
+@media screen and (min-width: 1600px){
+    .agegate_outermost_box {margin-top: 3vw;}
+}
+@media screen and (min-width: 1800px){
+    .agegate_outermost_box {margin-top: 5vw;}
+}
+@media screen and (min-width: 1900px){
+    .agegate_outermost_box {margin-top: 7vw;}
+}
+@media screen and (min-width: 2000px){
+    .agegate_outermost_box {margin-top: 9vw;}
+}
+@media screen and (min-width: 2200px){
+    .agegate_outermost_box {margin-top: 13vw;}
+}
+@media screen and (min-width: 2500px){
+    img.agegate_logo {width: 100%;}
+    .agegate_outermost_box {margin-top: 14vw;}
+}
+
+
+/* >>>>> SM/XS <<<<< */
+
+@media screen and (max-width: 1199px){
+    .yes_no_buttons_holder {width: 50%;}
+}
+
+@media screen and (max-width: 991px){
+    .yes_no_buttons_holder {width: 65%;}
+    .agegate_content_holder {width: 100%;}
+}
+
+@media screen and (max-width: 767px){
+    .agegate_content_holder {padding-left: 16px; padding-right: 16px;}
+}
+
+@media screen and (max-width: 730px){
+    .yes_no_buttons_holder {width: 70%;}
+}
+
+@media screen and (max-width: 670px){
+    .yes_no_buttons_holder {width: 78%;}
+}
+
+@media screen and (max-width: 640px){
+    h2.lcb_warning {font-size: 2rem;}
+}
+
+@media screen and (max-width: 603px){
+    .yes_no_buttons_holder {width: 82%;}
+    img.agegate_logo {width: 47vw;}
+}
+
+@media screen and (max-width: 570px){
+    h2.lcb_warning {font-size: 1.66rem;}
+    .yes_no_buttons_holder {width: 88%;}
+}
+
+@media screen and (max-width: 534px){
+    img.agegate_logo {height: 260px;}
+    .yes_no_buttons_holder {width: 90%;}
+    .agegate_content_holder {padding-top: 2px;}
+    a.agegate_yes_btn {display: block; margin: 0 auto; float: none; position: relative;}
+    a.agegate_no_btn {display: block; margin: 0 auto; float: none; position: relative; top: 16px;}
+    .agegate_content_holder p {margin-top: 50px;}
+}
+
+@media screen and (max-width: 460px){
+    h2.lcb_warning {font-size: 1.33rem;}
+}
+
+@media screen and (max-width: 368px){
+    img.agegate_logo {height: 230px;}
+    h2.lcb_warning {font-size: 1.121rem;}
+    .agegate_content_holder {padding-bottom: 20px;}
+}
+
+
+
+
+
+/* - - -  - - - - - - - - - - - - - - - - - */
+/* - - -  - - - - - - - - - - - - - - - - - */
+/* ========== EMPLOYMENT ==========*/
+/* - - -  - - - - - - - - - - - - - - - - - */
+/* - - -  - - - - - - - - - - - - - - - - - */
+
+/* >>>>> SM/XS <<<<< */
+
+@media screen and (max-width: 991px){
+    .lcb_inner_page_textual_content_holder {width: 99%;}
+    .lotus_left_top {left: -22%;}
+    .lotus_right_bottom {right: -22%;}
+}
+
+@media screen and (max-width: 767px){
+    .lcb_inner_page_textual_content_holder {width: 94%;}
+    .lotus_left_top {left: -28%;}
+    .lotus_right_bottom {right: -28%;}
+}
+
+@media screen and (max-width: 603px){
+    .lcb_inner_page_textual_content_holder p {font-size: 0.9rem;}
+    .lotus_left_top {left: -38%;}
+    .lotus_right_bottom {right: -38%;}
+}
+
+@media screen and (max-width: 525px){
+    .lotus_left_top {left: -48%;}
+    .lotus_right_bottom {right: -48%;}
+}
+
+@media screen and (max-width: 425px){
+    .lotus_left_top {left: -55%;}
+    .lotus_right_bottom {right: -55%;}
+}
+
+
+
+
+
+/* - - -  - - - - - - - - - - - - - - - - - */
+/* - - -  - - - - - - - - - - - - - - - - - */
+/* ========== ABOUT US ==========*/
+/* - - -  - - - - - - - - - - - - - - - - - */
+/* - - -  - - - - - - - - - - - - - - - - - */
+
+/* >>>>> SM/XS <<<<< */
+
+@media screen and (max-width: 603px){
+    .about_bottommost_slogan_holder h5 {font-size: 2.9rem;}
+    .about_bottommost_slogan_holder h6 {font-size: 0.9rem;}
+}
+
+
+
+
+
+/* - - -  - - - - - - - - - - - - - - - - - */
+/* - - -  - - - - - - - - - - - - - - - - - */
+/* ========== SERVICES & FEES ==========*/
+/* - - -  - - - - - - - - - - - - - - - - - */
+/* - - -  - - - - - - - - - - - - - - - - - */
+
+/* >>>>> SM/XS <<<<< */
+
+@media screen and (max-width: 991px){
+    .additional_fees_info_box_holder {width: 95%;}
+}
+
+@media screen and (max-width: 767px){
+    article.service_description {padding-left: 16px; padding-right: 16px;}
+}
+
+
+
+
+
+/* - - -  - - - - - - - - - - - - - - - - - */
+/* - - -  - - - - - - - - - - - - - - - - - */
+/* ========== COMING SOON ==========*/
+/* - - -  - - - - - - - - - - - - - - - - - */
+/* - - -  - - - - - - - - - - - - - - - - - */
+
+/* >>>>> SM/XS <<<<< */
+
+@media screen and (max-width: 636px){
+    h1.lcb_comingsoon {font-size: 3.8rem;}
+}
+
+@media screen and (max-width: 454px){
+    h1.lcb_comingsoon {font-size: 3rem;}
+}
+
+@media screen and (max-width: 354px){
+    h1.lcb_comingsoon {font-size: 2.6rem;}
+}
+
